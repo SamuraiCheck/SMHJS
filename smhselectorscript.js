@@ -118,10 +118,10 @@ $( "#width-range" ).slider({
 
 $( "#year-range" ).slider({
   range: true,
-  values: [ 1970, 2022 ],
+  values: [ 1970, 2021 ],
   step: 1,
   min: 1970,
-  max: 2022,
+  max: 2021,
   animate: "fast",
   value: 1,
   slide: function( event, ui ) {
