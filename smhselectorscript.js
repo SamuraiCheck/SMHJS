@@ -1,7 +1,7 @@
 
 
 
-$( "#bedroom-range, #bathroom-range, #square-feet-range")\
+$( "#bedroom-range, #bathroom-range, #square-feet-range")
 .on( "slidestart", function( event, ui ) { 
   $("body").css('cursor', 'grabbing');
   $(".ui-widget.ui-widget-content").css('cursor', 'grabbing');
@@ -118,10 +118,10 @@ $( "#width-range" ).slider({
 
 $( "#year-range" ).slider({
   range: true,
-  values: [ 1970, 2021 ],
+  values: [ 1970, 2020 ],
   step: 1,
   min: 1970,
-  max: 2021,
+  max: 2020,
   animate: "fast",
   value: 1,
   slide: function( event, ui ) {
