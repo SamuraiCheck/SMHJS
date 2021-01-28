@@ -1,8 +1,7 @@
 
 
 
-$( "#bedroom-range, #bathroom-range, #square-feet-range")
-.on( "slidestart", function( event, ui ) { 
+$("#bedroom-range, #bathroom-range, #square-feet-range").on( "slidestart", function( event, ui ) { 
   $("body").css('cursor', 'grabbing');
   $(".ui-widget.ui-widget-content").css('cursor', 'grabbing');
 } );
